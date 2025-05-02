@@ -1,0 +1,14 @@
+name: tf-base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.24
+  - pillow=9.4
+  - matplotlib=3.7
+  - tqdm=4.65
+  - pip
+  - pip:
+    - tensorflow==2.13
+    - tensorflow-datasets==4.9.2
